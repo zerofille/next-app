@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import styles from '../../styles/BeerInfo.module.sass'
 export default function BeerInfo({beer}: any) {
-  console.log(beer)
+
   return (
     <div className={styles.mainWrap}>
       <Image src={beer[0].image_url} height={'700px'} width={'200px'}/>

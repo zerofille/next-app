@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.sass'
 import Beers from '../components/Beers'
 
 const Home: NextPage = ({beers}: any) => {
-  console.log(beers)
+
   return (
     <Beers beers={beers}/>
 

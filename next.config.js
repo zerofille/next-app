@@ -6,7 +6,9 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: ["images.punkapi.com"],
-  },
+    disableStaticImages: true
+  }
+
 }
 
 
